@@ -1,5 +1,5 @@
 /*****
- * Edit this line to have your name.
+Jace Tjan
  ******/
 public class GitDemo {
     
@@ -14,9 +14,14 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
+        //new changes added line 18
+        previousnumber += num;
         return 0;
     }
-    
+    //new changes new method and reverseNum = newNumber
+    private double reverseNum() {
+        reverseNum = newNumber;
+    }
     /*****
      * This function should calculate the factorial of 'num' and return the resulting value.
      * i.e. if num = 4,
